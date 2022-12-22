@@ -1,3 +1,5 @@
+package day2;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -11,7 +13,7 @@ public class RockPaperScissorsStrategizer {
         Character self = null;
         int tally = 0;
         try {
-            File file = new File("src/fileInput.txt");
+            File file = new File("src/day2/day2FileInput.txt");
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
 
             String st;
