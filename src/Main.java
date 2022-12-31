@@ -1,7 +1,6 @@
 import day1.CalorieCounter;
 import day2.RockPaperScissorsStrategizer;
-
-import java.util.Collections;
+import day4.CampCleanUp;
 
 public class Main {
 
@@ -16,6 +15,12 @@ public class Main {
         System.out.println("Day 2: " + rps.rockPaperScissorFileReader());
 
         //day 3
+
+        //day 4
+        CampCleanUp ccu = new CampCleanUp();
+        System.out.println("Day 4: " + ccu.containsAssignmentPairCount());
+
+        //day 5
 
     }
 }
